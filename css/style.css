@@ -1,0 +1,58 @@
+.Heder
+{
+	font-size: 50pt;
+	text-align: center;
+}
+.blocks
+{
+	display: flex;
+	flex-direction:row; 
+	 flex-wrap: wrap;
+	 /* justify-content: flex-end; */
+	 justify-content: center;
+	 align-items: baseline;
+}
+.block
+{
+	margin: 5pt;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	
+}
+.block_txt
+{
+	font-size: 10pt;
+	margin: 2pt;
+	width: 60%;
+}
+.block_txt:hover
+{
+	color:blue;
+}
+
+.block_img
+{
+	vertical-align:middle;
+	float : right;
+	max-width: 100pt;
+	max-height: 150pt;	
+
+}
+.block_prise
+{
+	font-size: 20pt;
+	font:bold;
+}
+.block_btn
+{
+	font-size: 20pt;
+	height: 30pt;	
+	width: 80pt ;
+	margin: 5pt;
+	background-color: yellow;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 2px;
+	border-radius: 15%;
+}
